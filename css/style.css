@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img.portada{
+    height: auto;
+    width: 100px;
+
+}
+
+
+.banner{
+    background-image: url(../img/pexels-george-sistonen-952755-7248037\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.banner p{
+    color: white;
+    padding: 4px;
+
+}
+header{
+    display: flex;
+    gap: 90px;
+    background-color: #90f1f1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+
+}
+
+.menu ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: 45px;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+main{
+    background-color: #eaeaaf;
+}
+
+
+H2{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}
+.separacion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+.item{
+    background-color: #90f1f1;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.item img{
+    width: 100% ;
+    height: 200%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.item p{
+    color: #333;
+    font-size: 15px;
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+
+.fondo{
+    background-color: #90f1f1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.redes li{
+    list-style: none;
+    padding: 5px;
+}
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+
+.derechos{ 
+    grid-column: 1 /-1;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.informacion li{
+    list-style: none;
+    padding: 5px;
+}
+
+.npglogo{
+    width: 99px;
+}
+p{
+    color: black;
+}
